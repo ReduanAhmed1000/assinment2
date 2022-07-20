@@ -1,0 +1,264 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* header start here  */
+
+.header{
+
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 550px;
+ 
+
+}
+
+
+
+.header-bio{
+
+    margin-left: 10px;
+
+}
+
+.header-bio h1{
+
+    font-size: 40px;
+    color: white;
+
+}
+
+.header-bio p{
+
+    color: white;
+    
+
+}
+
+@keyframes sliding {
+    
+    0%{
+     background-color: green;
+
+    }
+
+    25%{
+
+       background-color: blue;
+
+    }
+
+    50%{
+
+        background-color: white;
+
+    }
+
+    75%{
+
+     background-color: skyblue;
+
+    }
+
+    100%{
+
+       background-color: red;
+
+    }
+
+}
+
+.header-bio a{
+
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    padding-top: 10px;
+    position: relative;
+    left: 40%;
+    animation: sliding 8s linear 0.5s alternate infinite ;
+    animation-play-state: running;
+ 
+ }
+
+ 
+
+
+.header-img{
+
+   text-align: center;
+   height: 50%;
+   position: relative;
+   top: 20px;
+
+}
+
+.header-img img{
+
+    width: 350px;
+    height: 200px;
+    
+
+
+}
+
+/* header end here */
+
+/* content start here */
+
+.left-content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+   
+    
+
+}
+
+.left-content a{
+
+    text-decoration: none ;
+   
+   }
+
+
+   .upcomming  {
+
+       background-color: red;
+       width: 200px;
+       padding: 20px;
+       font-size: 20px;
+       text-align: center;
+       margin-bottom: 10px;
+       color: white;
+       border-radius: 10px;
+      
+  }   
+
+
+  .all-group{
+
+   background-color: white;
+   width: 200px;
+   padding: 20px;
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 10px;
+   color: black;
+   border-radius: 10px;
+   border: 1px solid black;
+
+}
+
+
+.blog{
+
+   background-color: white;
+   width: 200px;
+   padding: 20px;
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 10px;
+   color: black;
+   border-radius: 10px;
+   border: 1px solid black;
+
+
+
+}
+
+
+.right-content{
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+
+
+}
+
+
+.match{
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 210px;
+   
+    position: relative;
+    left: 32%;
+
+}
+
+.matchday{
+
+     display: flex;
+     
+
+}
+
+.view{
+
+   display: none;
+
+}
+
+/* footer start here */
+
+.end{
+
+    background-color: black;
+    color: white;
+    padding: 30px;
+    
+
+}
+
+.end h1{
+
+   text-align: center;
+   font-size: 30px;
+
+}
+
+
+.about{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.about a{
+
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  
+  padding: 20px;
+
+}
+
+
+
+

@@ -1,0 +1,220 @@
+/* Large devices (laptops/desktops, 992px and up) */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* header start here  */
+
+.header{
+
+     background-color: black;
+     display: flex;
+     flex-direction: row;
+     margin: 50px;
+     padding: 20px;
+     border-radius: 20px;
+     height: 500px;
+
+
+}
+
+ .header-bio{
+
+     margin-left: 30px;
+     width: 50%;
+
+ }
+
+
+.header-bio h1{
+
+      font-size: 60px;
+      color: white;
+
+}
+
+.header-bio p{
+
+     color: white;
+     padding-bottom: 10px;
+
+}
+
+@keyframes sliding {
+    
+  0%{
+   background-color: green;
+
+  }
+
+  25%{
+
+     background-color: blue;
+
+  }
+
+  50%{
+
+      background-color: white;
+
+  }
+
+  75%{
+
+   background-color: skyblue;
+
+  }
+
+  100%{
+
+     background-color: red;
+
+  }
+
+}
+
+.header-bio a{
+
+   text-decoration: none;
+   background-color: red;
+   color: white;
+   padding: 15px;
+   border-radius: 5px;
+   padding-top: 10px;
+   animation: sliding 8s linear 0.5s alternate infinite ;
+   animation-play-state: running;
+
+}
+
+
+.header-img{
+
+      width: 50%;
+
+
+}
+
+.header-img img{
+
+   width: 400px;
+   height: 400px;
+
+
+}
+
+/* header end here  */
+
+/* content start here  */
+
+
+.content{
+
+    display: grid;
+    grid-template-columns: 30% 40% ;
+    margin: 30px;
+    
+    
+    
+
+}
+
+
+.left-content{
+
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+   border-radius: 10px;
+   width: 300px;
+   height: 300px;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+
+.left-content a{
+
+ text-decoration: none;
+
+}
+
+.right-content {
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    position: relative;
+    top: 28px;
+    left: 17%;
+    
+
+  }
+
+
+  .match{
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 210px;
+    
+   
+  }
+
+  .matchday{
+
+      display: flex;
+
+  }
+
+
+  /* content end here  */
+
+/* footer start here  */
+
+.end{
+
+    background-color: black;
+    color: white;
+    padding: 30px;
+    
+
+}
+
+.end h1{
+
+   text-align: center;
+   font-size: 30px;
+
+}
+
+
+.about{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.about a{
+
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  
+  padding: 20px;
+
+}
+
+
+ 
